@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Bar chart</title>
+</head>
+    <body>
+        <div class="canvas">
+
+        </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBl0i5DwccKqEYAORKwlsPWWn7ab9aMn58",
+    authDomain: "d3-project1.firebaseapp.com",
+    databaseURL: "https://d3-project1.firebaseio.com",
+    projectId: "d3-project1",
+    storageBucket: "d3-project1.appspot.com",
+    messagingSenderId: "17094773730",
+    appId: "1:17094773730:web:12076244014aa04ea987bb",
+    measurementId: "G-T1963W6H6S"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  const db = firebase.firestore();
+</script>
+       <script src="https://d3js.org/d3.v5.js"></script>
+        <script src="index.js">
+        </script>
+    </body>
+</html>
